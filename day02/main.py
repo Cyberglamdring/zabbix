@@ -30,6 +30,7 @@ auth_token = post({
 ).json()["result"]
 
 
+# create group "CloudHosts"
 def register_group():
     post({
         "jsonrpc": "2.0",
@@ -42,6 +43,7 @@ def register_group():
     })
 
 
+# register new host
 def register_host(hostname="Tomcat", ip="192.168.50.101"):
     post({
         "jsonrpc": "2.0",
@@ -66,5 +68,5 @@ def register_host(hostname="Tomcat", ip="192.168.50.101"):
             ]
         },
         "auth": auth_token,
-        "id": 1
+        "id": 2
     })
