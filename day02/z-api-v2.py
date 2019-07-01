@@ -16,7 +16,7 @@ zapi.host.create({
                         "useip": 1,
                         "ip": "192.168.50.101",
                         "dns": "",
-                        "port": 10001
+                        "port": 10050
                 }],
                 "groups": [{
                     "groupid": "12"
