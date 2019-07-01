@@ -1,4 +1,4 @@
-Hleb Kanonir
+Hleb Kanonik
 
 hleb_kanonik@epam.com
 
